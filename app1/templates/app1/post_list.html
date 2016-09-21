@@ -1,0 +1,301 @@
+<html>
+<head>
+		<title>Indira System Watch</title>
+</head>
+<body>
+Hello Welcome
+
+
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>SNOWDOWN</h2> 
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'SNOWDON' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>NORTH DISPOSAL</h2>
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'NORTH_DISPOSAL' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+    
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>SUMMER HILL</h2> 
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'SUMMER_HILL' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>DHALLI</h2> 
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'DHALLI' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>SANJAULI MALYANA</h2> 
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'SANJAULI_MALYANA' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<table border='1'>
+
+  <tr>
+    <th colspan="2"></th>
+    <th colspan="5">Detail of Influent</th> 
+    <th colspan="5">Detail of Effluent</th>
+  </tr>
+  
+  <tr>
+    
+    <th>	Date of Entry	</th>
+    <th>	Flow Received	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.)	</th>
+    <th>	BOD (mg./Ltr.)	</th>
+    <th>	COD (mg./Ltr.)	</th>
+    <th>	pH	</th>
+    <th>	TSS (mg./Ltr.)	</th>
+    <th>	DO (mg./Ltr.) </th>
+  </tr>
+  <h2>LALPANI</h2> 
+  {% for post in new %}
+
+   
+  	{% if post.STP_NAME == 'LALPANI' %}
+  <tr>
+    
+    <td>{{post.published_date}}</td>
+    <td>{{post.FLOW_RECEIVED}}</td>
+    <td>{{post.IN_BOD}}</td>
+    <td>{{post.IN_COD}}</td>
+    <td>{{post.IN_pH}}</td>
+    <td>{{post.IN_TSS}}</td>
+    <td>{{post.IN_DO}}</td>
+    <td>{{post.EF_BOD}}</td>
+    <td>{{post.EF_COD}}</td>
+    <td>{{post.EF_pH}}</td>
+    <td>{{post.EF_TSS}}</td>
+    <td>{{post.EF_DO}}</td>
+    
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+
+
+
+</body>
+</html>
